@@ -1,5 +1,8 @@
 # Welcome to 50 drops of JavaScript
 
+
+![50 drops of JavaScript book](assets/header.png)
+
 ## The reason why
 This book collects 50 useful, unknown, underrated JavaScript functions or stuff discovered, used, and learned during JavaScript daily use.
 
