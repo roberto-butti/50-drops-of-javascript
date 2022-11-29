@@ -1,6 +1,6 @@
 - [x] 01-01 Info from CPU: os.cpus()
-- [ ] 01-02 Info from Operating System: os.version()
-- [ ] 01-03 Info from current user: os.userInfo()
+- [x] 01-02 Info from Operating System: os.version()
+- [x] 01-03 Info from current user: os.userInfo()
 - [ ] 01-04 Get envrinomenta vasriables: process.env()
 - [ ] 01-05 Get amount of free memory in bytes (as integer): os.freemem()
 - [ ] 01-07 os.totalmem()
