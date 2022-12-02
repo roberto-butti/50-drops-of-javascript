@@ -2,8 +2,9 @@
 The `os` module has the `version`()` method to return the version of the Operating System in use.
 
 ```javascript
-const os = require('os')
-const version = os.version()
+import { version } from 'os'
+const version = version()
+console.log(v)
 ```
 The `version()` method returns a string with the full name of the Operating System version, like this:
 ```
