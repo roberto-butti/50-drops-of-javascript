@@ -2,8 +2,8 @@
 The `os` module has the `userInfo`()` method to return information on the current system user.
 
 ```javascript
-const os = require('os')
-const user = os.userInfo()
+import { userInfo } from 'os'
+const u = userInfo()
 ```
 
 The `userInfo()` method returns an object with attributes:
