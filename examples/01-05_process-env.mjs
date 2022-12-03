@@ -7,3 +7,7 @@ if (envVarName in process.env) {
 } else {
   console.log('no %s defined', envVarName)
 }
+
+Object.keys(process.env).forEach(function (key, index) {
+  console.log(key, index, process.env[key])
+})
