@@ -1,7 +1,8 @@
 ## Access to environment variables: process.env
 
-The `process` module has the `env` attribute to return information on the environment variable.
+The `process` global module has the `env` attribute to return information on the environment variable.
 The `process.env` attribute contains an object and it represents the list of environment variables. Each attribute is an environment variable.
+The `process` module is a global module, which means that you don't have to import the process module manually, but it is automatically available in your code.
 
 For retrieving the environment variables object:
 ```javascript
