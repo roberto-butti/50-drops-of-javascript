@@ -42,9 +42,9 @@ open:
 
 
 codestyle: ## Show eslint errors
-	npx eslint examples
+	npx eslint --ext mjs examples
 codestylefix:## Fix eslint errors
-	npx eslint --fix  examples
+	npx eslint --fix --ext mjs examples/
 
 listtodo: ## list TODO
 	@cat list-of-functions-md | grep "^\-\ \["
