@@ -12,16 +12,3 @@ console.log(
   'Hi, the free memory is %d megabytes',
   m / 1024 / 1024
 )
-
-console.table(m)
-/*
-┌──────────┬──────────────────┐
-│ (index)  │      Values      │
-├──────────┼──────────────────┤
-│   uid    │       501        │
-│   gid    │        20        │
-│ username │    'roberto'     │
-│ homedir  │ '/Users/roberto' │
-│  shell   │    '/bin/zsh'    │
-└──────────┴──────────────────┘
-*/
