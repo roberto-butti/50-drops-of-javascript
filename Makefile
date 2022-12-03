@@ -8,7 +8,7 @@ IBISEXEC := ../OPENSOURCE/ibis/ibis
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
 
-all: build ## build Html pages and PDF
+all: codestylefix build ## build Html pages and PDF
 
 build: buildhtml buildpdf
 
