@@ -2,7 +2,7 @@
 - [x] 01-02 Info from Operating System: os.version()
 - [x] 01-03  Get amount of free memory in bytes (as integer): os.freemem()
 - [x] 01-04 Info from current user: os.userInfo()
-- [x] 01-05 Get envrinomenta vasriables: process.env()
+- [x] 01-05 Get envrinoment variables: process.env()
 - [ ] 01-06 Get amount of free memory in bytes (as integer): os.freemem()
 - [ ] 01-07 os.totalmem()
 - [ ] 01-08 os.loadavg()
