@@ -1,3 +1,4 @@
+- [x] 01-00 SYSTEM
 - [x] 01-01 Info from CPU: `os.cpus()`
 - [x] 01-02 Info from Operating System: `os.version()`
 - [x] 01-03 Info from current user: `os.userInfo()`
@@ -7,3 +8,24 @@
 - [x] 01-07 The load average of CPU: `os.loadavg()`
 - [x] 01-08 Network interfaces information: `os.networkInterfaces()`
 - [x] 01-09 Stop the execution with a proper status code: `process.exit()`
+- [ ] 01-10 Get temporary directory: `os.tmpdir()`
+- [ ] 01-11 Get monotonic time: `performance.now()`
+- [ ] 02-00 ARRAY
+- [ ] 02-01 Apply function to each array element: `map()`
+- [ ] 02-02 A string from an array: `join()`
+- [ ] 02-03 Check if a key exists in the array: `in`
+- [ ] 02-04 Check if a key exists in the array: `[]`
+- [ ] 02-05 Concat two arrays: `concat()`
+- [ ] 02-06 Merge two arrays: `unique()`
+- [ ] 02-07 Generate and fill a new array `fill()`
+- [ ] 02-08 Filtering elements: `filter()`
+- [ ] 02-09 Testing all elements: `every()`
+- [ ] 02-10 Testing at least one element: `some()`
+- [ ] 02-11 Mapping new array: `map()`
+- [ ] 02-12 Reduce array: `reduce()`
+- [ ] 03-00 Variables, constants
+- [ ] 03-01 Get variable type: `typeof`
+- [ ] 03-02 Portable directory separator: `path.sep`
+- [ ] 03-03 Portable end of line: `os.EOL`
+- [ ] 03-04 Gets the properties of the given object: `getOwnPropertyNames()`
+- [ ] 04-00 Functions
