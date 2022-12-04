@@ -10,9 +10,9 @@
 - [x] 01-09 Stop the execution with a proper status code: `process.exit()`
 - [x] 01-10 Get temporary directory: `os.tmpdir()`
 - [x] 01-11 Get monotonic time: `performance.now()`
-- [ ] 02-00 ARRAY
-- [ ] 02-01 Apply function to each array element: `map()`
-- [ ] 02-02 A string from an array: `join()`
+- [x] 02-00 ARRAY
+- [x] 02-01 Create a string from an array: `join()`
+- [ ] 02-02 Check if the aray includes a certain value: `includes()`
 - [ ] 02-03 Check if a key exists in the array: `in`
 - [ ] 02-04 Check if a key exists in the array: `[]`
 - [ ] 02-05 Concat two arrays: `concat()`
