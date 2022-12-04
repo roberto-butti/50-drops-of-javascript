@@ -13,7 +13,7 @@ console.log('Never executed')
 Executing this snippet, a `99` status code error will be returned to the shell.
 For example, once the script execution is terminated, you can test the shell environment variable `$?` that contains the status code of the last process executed. If you execute in a shell (`bash` or `zsh` or some other shell) the node script and then try to show the last status code via `echo $?`:
 
-```shell
+```bash
 node examples/01-09_process-exit.mjs
 echo $?
 ```
