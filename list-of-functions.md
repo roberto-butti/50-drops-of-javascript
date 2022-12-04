@@ -12,7 +12,7 @@
 - [x] 01-11 Get monotonic time: `performance.now()`
 - [x] 02-00 ARRAY
 - [x] 02-01 Create a string from an array: `join()`
-- [ ] 02-02 Check if the aray includes a certain value: `includes()`
+- [x] 02-02 Check if the array includes a certain value: `includes()`
 - [ ] 02-03 Check if a key exists in the array: `in`
 - [ ] 02-04 Check if a key exists in the array: `[]`
 - [ ] 02-05 Concat two arrays: `concat()`
