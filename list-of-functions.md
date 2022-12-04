@@ -9,7 +9,7 @@
 - [x] 01-08 Network interfaces information: `os.networkInterfaces()`
 - [x] 01-09 Stop the execution with a proper status code: `process.exit()`
 - [x] 01-10 Get temporary directory: `os.tmpdir()`
-- [ ] 01-11 Get monotonic time: `performance.now()`
+- [x] 01-11 Get monotonic time: `performance.now()`
 - [ ] 02-00 ARRAY
 - [ ] 02-01 Apply function to each array element: `map()`
 - [ ] 02-02 A string from an array: `join()`
