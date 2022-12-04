@@ -6,3 +6,4 @@
 - [x] 01-06 Get the amount of total memory available in bytes (as integer): `os.totalmem()`
 - [x] 01-07 The load average of CPU: `os.loadavg()`
 - [x] 01-08 Network interfaces information: `os.networkInterfaces()`
+- [x] 01-09 Stop the execution with a proper status code: `process.exit()`
