@@ -73,7 +73,7 @@ if (existsSync(markdownFilename)) {
   console.log(`Example file ${markdownFilename} already exists`)
 } else {
   console.log(`Example file ${markdownFilename} creating...`)
-  writeFile(markdownFilename, `# ${nextSection.title}${EOL}${nextSection.title}`, function (err) {
+  writeFile(markdownFilename, `## ${nextSection.title}${EOL}${nextSection.title}`, function (err) {
     if (err) throw err
     console.log('Saved!')
   })
