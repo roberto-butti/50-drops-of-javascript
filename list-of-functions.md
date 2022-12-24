@@ -29,3 +29,7 @@
 - [ ] 03-03 Portable end of line: `os.EOL`
 - [ ] 03-04 Gets the properties of the given object: `getOwnPropertyNames()`
 - [ ] 04-00 Functions
+- [ ] 05-00 Files
+- [ ] 05-01 Current directory: `process.cwd()`
+- [ ] 06-00 Strings
+- [ ] 06-01 String includes: `includes()`
