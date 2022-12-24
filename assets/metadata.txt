@@ -1,0 +1,6 @@
+---
+title: 50 drops of Javascript
+author: Roberto Butti
+lang: en-US
+cover-image: assets/cover.png
+---

@@ -2,6 +2,7 @@
 
 SRCS := content/*.md
 OUTPUT := export/50-drops-of-javascript-light.pdf
+OUTPUTEBOOK := export/50-drops-of-javascript-light.epub
 HTML := export/output.html
 IBISEXEC := ../OPENSOURCE/ibis/ibis
 
@@ -10,7 +11,7 @@ help:
 
 all: codestylefix build ## build Html pages and PDF
 
-build: buildhtml buildpdf
+build: buildhtml buildpdf buildebook
 
 buildhtml: ${HTML} ## build html pages
 	@echo "Going to build" ${HTML}
@@ -21,6 +22,15 @@ ${HTML}: ${SRCS}
 
 buildpdf: ${OUTPUT} ## build PDF file
 	@echo "Going to build" ${OUTPUT}
+
+buildebook: ${OUTPUTEBOOK} ## build ebook epub file
+	@echo "Going to build" ${OUTPUTEBOOK}
+
+${OUTPUTEBOOK}: ${SRCS}
+	@echo "Creating epub file..."
+	pandoc -o ${OUTPUTEBOOK} assets/metadata.txt content/*.md --css assets/style.css  --table-of-contents
+
+
 
 ${OUTPUT}: ${SRCS} ibis.php assets/*.html
 	@echo "Creating PDF (light)..."
