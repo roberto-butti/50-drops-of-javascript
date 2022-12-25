@@ -14,7 +14,7 @@
 - [x] 02-01 Create a string from an array: `join()`
 - [x] 02-02 Check if the array includes a certain value: `includes()`
 - [x] 02-03 Check if a key exists in the array: `in`
-- [ ] 02-04 Concat two arrays: `concat()`
+- [x] 02-04 Concat two arrays: `concat()`
 - [ ] 02-05 Merge two arrays: `unique()`
 - [ ] 02-06 Generate and fill a new array `fill()`
 - [ ] 02-07 Filtering elements: `filter()`
