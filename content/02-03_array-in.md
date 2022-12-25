@@ -34,7 +34,7 @@ if (fruits.something === undefined) {
 }
 ```
 
-The `in` operator works also with the arrays. In this case, you can check the presence of the numeric index:
+The `in` operator works also with the arrays. With the arrays, you can check the presence of the numeric index:
 
 ```javascript
 const fruitsArray = []
