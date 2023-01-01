@@ -14,14 +14,15 @@
 - [x] 02-01 Create a string from an array: `join()`
 - [x] 02-02 Check if the array includes a certain value: `includes()`
 - [x] 02-03 Check if a key exists in the array: `in`
-- [x] 02-04 Concat two arrays: `concat()`
-- [ ] 02-05 Merge two arrays: `unique()`
-- [ ] 02-06 Generate and fill a new array `fill()`
-- [ ] 02-07 Filtering elements: `filter()`
-- [ ] 02-08 Testing all elements: `every()`
-- [ ] 02-09 Testing at least one element: `some()`
-- [ ] 02-10 Mapping new array: `map()`
-- [ ] 02-11 Reduce array: `reduce()`
+- [x] 02-04 Concat arrays: `concat()`
+- [ ] 02-05 Concat arrays via destructuring
+- [ ] 02-06 Remove duplicate values in an array via: `Set()`
+- [ ] 02-07 Generate and fill a new array `fill()`
+- [ ] 02-08 Filtering elements: `filter()`
+- [ ] 02-09 Testing all elements: `every()`
+- [ ] 02-10 Testing at least one element: `some()`
+- [ ] 02-11 Mapping new array: `map()`
+- [ ] 02-12 Reduce array: `reduce()`
 - [ ] 03-00 Variables, constants
 - [ ] 03-01 Get variable type: `typeof`
 - [ ] 03-02 Portable directory separator: `path.sep`
