@@ -15,8 +15,8 @@
 - [x] 02-02 Check if the array includes a certain value: `includes()`
 - [x] 02-03 Check if a key exists in the array: `in`
 - [x] 02-04 Concat arrays: `concat()`
-- [ ] 02-05 Concat arrays via destructuring
-- [ ] 02-06 Remove duplicate values in an array via: `Set()`
+- [x] 02-05 Concat arrays via destructuring
+- [x] 02-06 Remove duplicate values in an array via `Set(`)`
 - [ ] 02-07 Generate and fill a new array `fill()`
 - [ ] 02-08 Filtering elements: `filter()`
 - [ ] 02-09 Testing all elements: `every()`
