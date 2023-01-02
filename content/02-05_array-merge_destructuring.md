@@ -1,7 +1,7 @@
 ## Concat arrays via destructuring
 For concatenating or merging two or more arrays, you can use the destructuring technique.
 
-With this technique essentially you are going to unpack the arrays into a list of distinct variables, and use this list to recreate a new array witch square brackets.
+With this technique essentially you are going to unpack the arrays into a list of distinct variables, and use this list to recreate a new array with square brackets.
 
 ```js
 const array1 = ['a', 'b', 'c']
