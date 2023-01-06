@@ -19,3 +19,13 @@ Array [
   { product: 'Bookcase', price: 150, active: true }
 ]
 */
+
+const resultActiveElements = elements.filter(element => (element.active && element.price >= 150))
+console.dir(resultActiveElements)
+/*
+output:
+Array [
+  { product: 'Desk', price: 200, active: true },
+  { product: 'Bookcase', price: 150, active: true }
+]
+*/
