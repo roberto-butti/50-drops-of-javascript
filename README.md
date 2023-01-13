@@ -22,13 +22,19 @@ I was thinking to print this book, but I think that is not so eco-friendly and a
 
 Releases:
 
-- (WIP) release 1.0.0 (WIP not yet released): writing... ;
+- **W.I.P.** the 1.0.0 version is not yet released: writing... ;
+
+> The book is **Work in Progress**, the list of the functions covered by the book at the moment are listed in [list-of-functions.md](list-of-functions.md) file
 
 So, if you have any feedback, or you want to suggest some corrections, feel free to open an issue here: https://github.com/roberto-butti/50-drops-of-javascript/issues
 
 ### Where to find this book
 
 This book is available for download for free here: https://github.com/roberto-butti/50-drops-of-javascript/
+
+- Markdown files: [content/](content/);
+- PDF file: [export/50-drops-of-javascript-light.pdf](export/50-drops-of-javascript-light.pdf);
+- epub file: [export/50-drops-of-javascript-light.epub](export/50-drops-of-javascript-light.epub)
 
 ### Thanks to...
 
