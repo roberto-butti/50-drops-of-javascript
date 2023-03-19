@@ -1,4 +1,4 @@
-## Info from Operating System: os.version()
+## Info from Operating System: `os.version()`
 The `os` module has the `version`()` method to return the version of the Operating System in use.
 
 ```javascript

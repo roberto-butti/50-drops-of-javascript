@@ -1,4 +1,4 @@
-## Info for the current user: os.userInfo()
+## Info for the current user: `os.userInfo()`
 The `os` module has the `userInfo`()` method to return information on the current system user.
 
 ```javascript

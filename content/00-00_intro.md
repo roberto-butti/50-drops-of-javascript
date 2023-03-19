@@ -10,7 +10,8 @@ While I wrote this book, I also wrote some scripts to better understand the beha
 
 ### Requirements
 
-The code used in this book is tested with **NodeJs version 18 (LTS)**.
+> The code used in this book is tested with **NodeJs version 18 (LTS)**.
+
 Node.js is an open-source, cross-platform JavaScript runtime environment, and you can obtain Node.js on the official https://nodejs.org/ website.
 
 ### Continuous release

@@ -1,10 +1,9 @@
 .PHONY = all clean build buildhtml buildpdf phpcs toc
 
 SRCS := content/*.md
-OUTPUT := export/50-drops-of-javascript-light.pdf
+OUTPUTPDFLIGHT := export/50-drops-of-javascript-light.pdf
 OUTPUTEBOOK := export/50-drops-of-javascript-light.epub
 HTML := export/output.html
-IBISEXEC := ../../OPENSOURCE/ibis/ibis
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
@@ -14,41 +13,41 @@ all: codestylefix build ## build Html pages and PDF
 build: buildhtml buildpdf buildebook
 
 buildhtml: ${HTML} ## build html pages
-	@echo "Going to build" ${HTML}
+	@echo "Build : " ${HTML}
 
 ${HTML}: ${SRCS}
 	@echo "Creating HTML... NOT YET IMPLEMENTED"
 
 
-buildpdf: ${OUTPUT} ## build PDF file
-	@echo "Going to build" ${OUTPUT}
+buildpdf: ${OUTPUTPDFLIGHT} ## build PDF file
+	@echo "Build : " ${OUTPUTPDFLIGHT}
 
 buildebook: ${OUTPUTEBOOK} ## build ebook epub file
-	@echo "Going to build" ${OUTPUTEBOOK}
+	@echo "Build : " ${OUTPUTEBOOK}
 
 ${OUTPUTEBOOK}: ${SRCS}
 	@echo "Creating epub file..."
 	pandoc -o ${OUTPUTEBOOK} assets/metadata.txt content/*.md --css assets/style.css  --table-of-contents
 
+${OUTPUTPDFLIGHT}: ${SRCS} assets/*
+	@echo "Creating PDF file..."
+	pandoc -o ${OUTPUTPDFLIGHT} \
+		--pdf-engine-opt='cover' \
+		--pdf-engine-opt='./assets/cover.html' \
+		assets/metadata.txt  content/*.md \
+		--css=assets/style.css  \
+		--table-of-contents  \
+		--pdf-engine=wkhtmltopdf \
+		-V footer-html=./assets/footer.html
 
-
-${OUTPUT}: ${SRCS} ibis.php assets/*.html
-	@echo "Creating PDF (light)..."
-	${IBISEXEC} build
-	@echo "Creating PDF (dark)..."
-	${IBISEXEC} build dark
-
-
-buildsample: ## build sample PDF file
-	@echo "Creating PDF sample..."
-	${IBISEXEC} sample
 
 clean:
-	@echo "Cleaning up..."
-	@echo "removing (dry run) " ${OUTPUT}
+	rm ${OUTPUTEBOOK} ${OUTPUTPDFLIGHT}
+
+
 
 open:
-	open ${OUTPUT}
+	open ${OUTPUTPDFLIGHT}
 
 
 codestyle: ## Show eslint errors
